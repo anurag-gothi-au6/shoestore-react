@@ -1,0 +1,29 @@
+.card{
+    background-color: white;
+}
+.cards{
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+}
+.card:hover{
+    transform: scale(1.1);
+    box-shadow: -1px 1px 9px 11px grey;
+}
+body{
+    /* max-width: 1vmax; */
+}
+.AddTo{
+    height: 40px;
+    width: 130px;
+    border-radius: 10%;
+}
+.AddTo:hover{
+    background-color: teal;
+    cursor: pointer;
+    color: white;
+}
+img{
+    height: 12em;
+    width: 260px;
+}
