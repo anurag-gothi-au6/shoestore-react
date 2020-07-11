@@ -15,7 +15,7 @@ class Finish extends Component {
       <Redirect to="/register" />
     ) : (
       <div>
-          <h1>Thank You For Buying Shoes From Here!!! Total Purchase: {this.state.total}</h1>
+          <p className='head'>Thank You For Buying!!! Total Purchase: {this.state.total}</p>
       </div>
     );
   }

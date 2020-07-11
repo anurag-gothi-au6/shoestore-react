@@ -75,6 +75,17 @@ h1 {
   transform: translateX(-50%);
 }
 
+
+.head {
+  color: white;
+  font-size: 3rem;
+  position: absolute;
+  margin-bottom: 100px;
+  left: 50%;
+  text-align: center;
+  transform: translateX(-50%);
+}
+
 ul {
   list-style: none;
 }
