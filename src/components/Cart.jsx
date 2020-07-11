@@ -13,7 +13,7 @@ class Cart extends Component {
 
 
   finishPymt = () => {
-    localStorage.setItem('total',this.props.products.total)
+    localStorage.setItem('total',this.props.products.total.toFixed(2))
     if(this.props.products.products.length===0){
       this.props.history.push('/home')
       return
