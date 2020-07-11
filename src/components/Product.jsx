@@ -25,11 +25,11 @@ export class Product extends Component {
           {this.props.products.map((elem) => (
              <Grid
               item
-              xs={12}
+              xs={8}
               sm={6}
               md={3}
               key={this.props.products.indexOf(elem)} >
-    <Card style={{ width: '28rem',textAlign:'center' }}>
+    <Card style={{ width: '16em',textAlign:'center', margin:'auto', alignItems:'center' }}>
   <Card.Img variant="top" src={elem.productImageURL} />
   <Card.Body>
           <Card.Title>{elem.productName}</Card.Title>
