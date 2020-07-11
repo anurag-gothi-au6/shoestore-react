@@ -11,7 +11,7 @@ class Finish extends Component {
       localStorage.setItem('total',0)
   }
   render() {
-    return this.props.user !== null ? (
+    return this.props.user === null ? (
       <Redirect to="/register" />
     ) : (
       <div className='finish'>
